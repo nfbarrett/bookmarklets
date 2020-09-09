@@ -3,7 +3,7 @@
 # <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" /> GMAIL
 ## add ```is:unread``` to whatever page you are on in gmail
 
-gets the label thats currently selected and changes to ```search``` and adds ```is:unread``` to the url.
+gets the label thats currently selected and changes to ```search``` and adds ```is:unread``` to the URL.
 
 ### raw javascript
 ```javascript
@@ -17,7 +17,7 @@ javascript:(function()%7Bwindow.location.href%3D'https%3A%2F%2Fmail.google.com%2
 
 ## add ```is:inbox``` to whatever page you are on in gmail
 
-gets the label thats currently selected and changes to search and adds is:inbox to the search.
+gets the label thats currently selected and changes to ```search``` and adds ```is:inbox``` to the URL.
 
 ### raw javascript
 ```javascript
