@@ -5,6 +5,9 @@
 
 gets the label thats currently selected and changes to ```search``` and adds ```is:unread``` to the URL.
 
+
+
+
 ### raw javascript
 ```javascript
 window.location.href='https://mail.google.com/mail/u/0/#search/'+location.hash.replace("/","%3A").replace("#search%3A","").replace("#imp","is%3Aimportant").replace("#category%3A","category%3A").replace("#label","label").replace("#","in%3A").toLowerCase().concat('+is%3Aunread')
