@@ -17,3 +17,19 @@ if (n > 0) {
   //  block of code to be executed if the condition is false
   window.location.href='https://mail.google.com/mail/u/0/#search/'+location.hash.replace("/","%3A").replace("#search%3A","").replace("#imp","is%3Aimportant").replace("#category%3A","category%3A").replace("#label","label").replace("#","in%3A").toLowerCase().concat('+is%3Aunread')
 }
+
+
+
+#search/from%3A(bingo%40patreon.com)+is%3Ainbox
+
+@=%40
+:=%3A
+from:(bingo@patreon.com) is:inbox
+.replace("#search%3A","")
+.replace("/","%3A")
+.replace(":","%3A")
+.replace("@","%40")
+.replace("#imp","is%3Aimportant")
+.replace("#category%3A","category%3A")
+.replace("#label","label")
+.replace("#","in%3A")
